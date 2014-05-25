@@ -1,5 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
 ##The following two functions extend the functionality of calculating
 ##the inverse of a given input matrix.
 ##This is done by cacheing the inverse calculation in such a manner
@@ -8,7 +6,6 @@
 ##This improves efficiency in situations where frequent access to the
 ##inverse of a matrix is required.
 
-## Write a short comment describing this function
 
 ##The first function, makeCacheMatrix creates a special "vector",
 ##which is really a list containing a function to
@@ -32,8 +29,6 @@ makeCacheMatrix <- function(x = matrix()) {
   
 }
 
-
-## Write a short comment describing this function
 ##The following function calculates the inverse of the special "matrix" 
 ##created with the above function. 
 ##However, it first checks to see if the inverse has already been calculated. 
